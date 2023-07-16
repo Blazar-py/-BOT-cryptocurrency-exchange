@@ -7,7 +7,7 @@ from aiogram.dispatcher import FSMContext
 from bs4 import BeautifulSoup as BS
 
 bot = Bot(token="TOKEN_FROM_BOTFATHER", parse_mode='HTML')
-admin_id = 1512300383
+admin_id = 123
 
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
